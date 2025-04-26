@@ -57,9 +57,38 @@
 - Backend: A running Django backend ([see backend README for setup](https://github.com/josephmusila/CEMA-Backend "see backend README for setup")). 
 
 **Running the Application**
+Clone Repository
+
 ```shell
-cd health-system-frontend
+git clone https://github.com/josephmusila/CEMA-Frontend.git
+cd CEMA-Frontend
+```
+Install Dependencies
+
+```shell
+npm install
+```
+
+Or, if using Yarn:
+
+```shell
+yarn install
+```
+
+Start the Development Server
+
+```shell
 npm start
 ```
+
+Or with Yarn:
+
+```shell
+yarn start
+```
+
+
+
+
 
 
